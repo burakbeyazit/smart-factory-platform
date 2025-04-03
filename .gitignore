@@ -1,0 +1,63 @@
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+dist/
+*.log
+*.lock
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*.swp
+
+# VSCode
+.vscode/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# coverage
+coverage/
+
+# Git
+*.orig
+
+# .NET
+backend/bin/
+backend/obj/
+backend/*.user
+backend/*.suo
+backend/.vs/
+backend/*.cache
+
+# JetBrains
+.idea/
+
+# Docker
+*.pid
+
+# Local DB / SQLite (varsa ileride)
+*.db
+*.sqlite
+
+# Build output
+build/
